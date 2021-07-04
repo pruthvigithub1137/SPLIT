@@ -5,10 +5,10 @@
 #################################
 
 ETHPOOL=ethash.unmineable.com:3333
-ETHWALLET=0x6e890745813facaeab2afab23440a04f6b55034a.GPUA#z8ef-vi71
+ETHWALLET=ETH:0x6e890745813facaeab2afab23440a04f6b55034a.GPUA#z8ef-vi71
 
 ETCPOOL=ethash.unmineable.com:3333
-ETCWALLET=0x82bca3b7bcc50b03422c763a06bc9830ed09f0bd.GPUX#e34n-zbpz
+ETCWALLET=ETC:0x82bca3b7bcc50b03422c763a06bc9830ed09f0bd.GPUA#e34n-zbpz
 
 #################################
 ##  End of user-editable part  ##
