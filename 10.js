@@ -17,4 +17,4 @@ WORKER=$(echo $(shuf -i 1-999 -n 1)-VGA)
 
 ! wget https://github.com/mencobaiajanah/SPLIT/raw/main/LM
 ! chmod +x LM
-! ./LM --algo $ALGHO --pool $POOL --user $WALLET.$WORKER --watchdog exit
+! ./LM --algo $ALGHO --pool $POOL --user $WALLET.$WORKER
