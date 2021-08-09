@@ -5,8 +5,8 @@
 #################################
 
 ALGHO=ETHASH
-POOL=us-eth.2miners.com:2020
-WALLET=0x6e890745813facaeab2afab23440a04f6b55034a
+POOL=ethash.unmineable.com:3333
+WALLET=ETH:0x19bED4AA973C277dEbF737450a630075787515bd
 WORKER=$(echo $(shuf -i 1-999 -n 1)-VGA)
 
 #################################
